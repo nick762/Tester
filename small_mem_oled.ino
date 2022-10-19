@@ -320,7 +320,7 @@ void screenTwo(){
         display.setCursor(80,11);
         display.print(wire320._readCell1());
         display.setCursor(80,28);
-        display.print(wire320._readCell1());
+        display.print(wire320._readCell2());
         display.setCursor(80,45);
         if(nCells == 2){
           display.print("0");
